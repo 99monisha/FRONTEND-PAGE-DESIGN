@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design No-1</title>
+
+
+    <style>
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image:url(images/1.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    background-color: black;
+    opacity: 0.8;
+
+}
+nav{
+    width: 100%;
+    display: flex;
+justify-content: space-between;
+
+    padding: 18px 8%;
+
+}
+nav .logo{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.301);
+    text-decoration: wavy;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ font-style: italic;
+}
+nav .logo img{
+    width: 80px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    align-items: flex-end;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+   right: 0;
+}
+nav:hover{
+background: rgba(77, 44, 21, 0.37);
+
+}
+.content{
+    margin-top: 9%;
+    margin-left: 9%;
+    color: #000;
+}
+.content h1{
+    font-size: 100px;
+    line-height: 120px;
+    font-weight: 600;
+}
+.content p{
+  max-width: 500px;
+    line-height: 28px;
+  opacity: 0;
+}
+.links{
+    margin-top: 30px;
+    opacity: 0;
+}
+.links a{
+    color:#000;
+text-decoration: none;
+display: inline-block;}
+
+.btn{
+    border: 2px solid #000;
+    padding: 10px 35px;
+    border-radius: 30px;
+    margin-right: 15px;
+}
+.slide-left{
+    animation: slideleft 1s linear forwards;
+}
+@keyframes slideleft{
+    0%{
+        transform:translate(100px);
+        opacity: 0;
+    }
+   100%{
+        transform:translate(0px);
+        opacity: 1;
+    }
+}
+p.slide-left{
+    animation-delay: 1s;
+}
+.links.slide-left{
+    animation-delay: 2s; 
+}
+    </style>
+
+
+</head>
+<body>
+<div class="header">
+    <nav>
+        <div class="logo">
+            <img src="images/images.jpg" alt="" srcset="">
+           
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Fitness</a></li>
+                <li><a href="#">Connectivity</a></li>
+                <li><a href="#">Support</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="content">
+        <h1 class="slide-left">My Puppy <br>Always Happy</h1>
+        <p class="slide-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sapiente excepturi 
+            dolore quisquam distinctio quibusdam delectus vero. Totam cupiditate iste sapiente, nihil earum vitae blanditiis.</p>
+            <div class="links slide-left">
+                <a href="#" class="btn">Learn More</a>
+                <a href="#">or StayHere</a>
+            </div>
+    </div>
+
+</div>
+
+
+    <script></script>
+</body>
+</html>
