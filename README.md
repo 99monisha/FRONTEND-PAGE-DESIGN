@@ -5,6 +5,6 @@
   <h2>2. Fronted Sample Page(Educational)<h2>
     <a href="https://github.com/99monisha/simple-frontend-design/tree/main/design_2">
 <img src="https://github.com/99monisha/simple-frontend-design/blob/main/design_2/images/finalop.png"/></a>
-  <h2>2. Pet landing Page Design<h2><a href="https://github.com/99monisha/simple-frontend-design/tree/main/design3">
+  <h2>2. landing Page Design<h2><a href="https://github.com/99monisha/simple-frontend-design/tree/main/design3">
      <img src="https://github.com/99monisha/simple-frontend-design/blob/main/design3/images/finalop%201.png"/></a>
     
